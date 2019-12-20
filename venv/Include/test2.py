@@ -1,4 +1,5 @@
-#列表 元素 字典 集合
+#列表 元组 字典 集合
+'''
 #EMS项目练习
 
 #显示系统欢迎信息
@@ -79,10 +80,17 @@ while True:
         pass
     elif user_choose == '4':
         #退出
-        input('感谢使用！再见【点击回车键退出系统】')
+        input('感谢使用！再见【‘点击回车键退出系统】')
         break
     else :
         print('您的输入有误，请重新选择！')
 
     # 打印分割线
     print('-' * 62)
+    '''
+#元祖
+my_tuple = 10,20,30,40
+a,b,*c = my_tuple
+print('a=',a)
+print('c=',c)
+
